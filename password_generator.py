@@ -37,5 +37,6 @@ with open(filename, 'a') as file:
         print(f"{filename} 파일을 생성했습니다.")
 
 print(f"{filename} 비밀번호가 생성되었습니다.")
+print(password)
 
 os.system("pause")  # 계속하려면 아무 키나 누르십시오..
